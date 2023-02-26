@@ -16,3 +16,4 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             console.log(JSON.stringify(context, null, 2))
+            console.log(github)

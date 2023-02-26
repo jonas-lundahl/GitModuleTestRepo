@@ -1,3 +1,5 @@
+import context from '../context.json'
+
 const release = context.payload.release;
 console.log("release", release);
 
