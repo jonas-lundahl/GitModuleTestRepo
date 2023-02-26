@@ -15,4 +15,4 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            node ../generate-release-notes.js
+            console.log(JSON.stringify(context, null, 2))
